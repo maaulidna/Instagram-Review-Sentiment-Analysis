@@ -57,19 +57,16 @@ This project performs sentiment analysis on Instagram app reviews scraped from t
 - **Negative**: Minority class
 
 ## 📁 Project Structure
+```
 
-```
-sentiment-ig-analysis/
-│
-├── Pelatihan_Model (1).ipynb
-│   └── Main notebook containing all analysis and models
-│
-├── dataset_clean.csv
-│   └── Preprocessed dataset after text cleaning
-│
-└── README.md
-    └── Project documentation
-```
+├── File_kode_scraping.ipynb      # Notebook for scraping Instagram comments
+├── Pelatihan_Model.ipynb         # Notebook for preprocessing & model training
+├── igreview.csv                  # Raw scraped Instagram comments
+├── igreview_clean.csv            # Cleaned & preprocessed dataset
+├── requirements.txt              # Required dependencies
+└── README.md                     # Project documentation
+
+````
 
 ## 🛠️ Technologies Used
 
